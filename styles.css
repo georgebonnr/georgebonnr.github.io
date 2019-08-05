@@ -18,16 +18,33 @@ a {
 h1 {
     margin-top: 0rem;
 }
-h1 > a, h2 > a, header > a, nav > a {
+.home a {
+    font-weight: 700;
+}
+.home > h2 {
+    font-weight: 400;
+}
+header > a, nav > a {
     text-decoration: none;
+    
+}
+header > a, nav > a {
+    font-weight: 400;
+}
+header {
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+}
+#present {
+    font-weight: 700;
 }
 @media only screen and (min-width: 531px){
     nav {
         float: right;
     }
 }
-@media only screen and (max-width: 531px){
-    .home {
+@media only screen and (max-width: 530px){
+    .home-link {
         display: block;
         margin-bottom: 1rem;
     }
@@ -38,4 +55,18 @@ header {
 p {
     font-size: 1rem;
     font-weight: 300;
+}
+.home {
+    margin-top: 3.33rem;
+}
+#footer {
+    border-top: 1px groove black;
+    padding-top: 0.9rem;
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 300;
+}
+#heart {
+    font-size: 0.6rem;
 }
