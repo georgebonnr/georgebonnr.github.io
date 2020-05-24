@@ -8,7 +8,7 @@ html {
     font-size: 20px;
 }
 body {
-    max-width: 36rem;
+    max-width: 45rem;
     margin: 0px auto;
     padding: 1rem;
 }
@@ -19,7 +19,7 @@ h1 {
     margin-top: 0rem;
 }
 .home a {
-    font-weight: 700;
+    font-weight: 400;
 }
 .home > h2 {
     font-weight: 400;
@@ -29,7 +29,7 @@ header > a, nav > a {
     
 }
 header > a, nav > a {
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 header {
     padding-bottom: 3px;
@@ -55,6 +55,7 @@ header {
 p {
     font-size: 1rem;
     font-weight: 300;
+    padding-bottom: 0.5rem;
 }
 .home {
     margin-top: 3.33rem;
