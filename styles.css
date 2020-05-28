@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html {
-    font-family: Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, "HelveticaNeue-Light", "Helvetica Neue Light", Arial, sans-serif;
     font-size: 20px;
 }
 body {
@@ -62,13 +62,16 @@ p {
     margin-top: 3.33rem;
 }
 #footer {
-    border-top: 1px groove black;
-    padding-top: 0.9rem;
+    border-top: 2px solid black;
+    /* padding-top: 1rem; */
     margin-top: 2rem;
-    font-size: 0.7rem;
-    text-align: center;
-    font-weight: 300;
+
 }
-#heart {
-    font-size: 0.6rem;
+#footerp {
+    font-size: 14px;
+    /* font-weight: 500; */
+    text-align: center;
+}
+#tree {
+    padding-left: 2px;
 }
