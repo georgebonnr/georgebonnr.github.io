@@ -104,6 +104,10 @@ p.quote {
     max-width: 100%; /* Ensure image doesn’t exceed its natural size */
 }
 
+.brian-quote {
+    margin-top: 3rem;
+}
+
 .quinton-quote {
     width: 100%;
     margin-top: 6rem;
