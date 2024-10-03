@@ -7,7 +7,12 @@ html {
     font-family: "Garamond", serif;
     font-size: 20px;
 }
-body {
+body.home {
+    max-width: 45rem;
+    margin: 0px auto;
+    padding: 1rem;
+}
+body.feedback {
     max-width: 45rem;
     margin: 0px auto;
     padding: 1rem;
@@ -72,4 +77,40 @@ p {
 }
 #tree {
     padding-left: 2px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+div.quote {
+    padding-top: 7rem;
+    max-width: 65rem;
+}
+p.quote {
+    margin-left: 3%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.jack-tag {
+    margin-top: -0.25rem;
+}
+
+.responsive-img {
+    width: 100%; /* This will make the image 100% of the paragraph width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure image doesn’t exceed its natural size */
+}
+
+.quinton-quote {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .quinton-quote {
+        width: 100%;
+    }
 }
